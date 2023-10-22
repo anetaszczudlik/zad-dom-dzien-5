@@ -1,4 +1,5 @@
-﻿int number = 54264;
+﻿Console.WriteLine("Podaj liczbę: ");
+int number = Convert.ToInt32(Console.ReadLine());
 string numberString = number.ToString();
 char[] letters = numberString.ToArray();
 
